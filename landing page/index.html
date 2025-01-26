@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Art Supplies | Express Your Creativity</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#">Art<span>Supplies</span>.</a>
+        </div>
+        <button class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </button>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#">Supplies</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="nav__btns">
+        <button class="btn sign__up">Sign Up</button>
+        <button class="btn sign__in">Sign In</button>
+      </div>
+    </nav>
+
+    <header class="header__container">
+      <div class="header__image">
+        <div class="header__image__card header__image__card-2">
+          <i class="ri-passport-line"></i> Canvas
+        </div>
+        <div class="header__image__card header__image__card-3">
+          <i class="ri-map-2-line"></i> Colours
+        </div>
+      </div>
+      <div class="header__content">
+        <h1>BE READY!<br />WITH <span>COLOURS</span> EXPRESS YOUR EMOTIONS WITH ART</h1>
+        <p>
+          Unleash your imagination with art supplies that inspire creativity.
+          From vibrant paints to precision tools, find everything you need to bring
+          your vision to life. Create, explore, and let your artistry shine.
+        </p>
+        <form action="/" method="GET">
+          <div class="input__row">
+            <div class="input__group">
+              <h5>Location</h5>
+              <div class="input__field">
+                <i class="ri-map-pin-line"></i>
+                <input type="text" placeholder="Bandra, Mumbai" required />
+              </div>
+            </div>
+            <div class="input__group">
+              <h5>Starting from date</h5>
+              <div class="input__field">
+                <i class="ri-calendar-2-line"></i>
+                <input type="date" required />
+              </div>
+            </div>
+          </div>
+          <button type="submit" class="btn search-btn">Search</button>
+        </form>
+        <footer class="bar">
+          Copyright © 2024. All rights reserved.
+        </footer>
+      </div>
+    </header>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
